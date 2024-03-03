@@ -1,0 +1,74 @@
+.worktype__box{
+width: 1045px;
+height: 565px;
+margin-right: 230px;
+margin-left: 165px;
+margin-bottom: 64px;
+}
+.worktype__title{
+ color: rgb(131, 136, 143);
+font-family: Fraunces;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 284px;
+padding-bottom: 80px;
+}
+.horizontal{
+  display: flex;
+  align-items: center;
+
+}
+.dumaloq{
+  width: 31px;
+  height: 31px;
+border: 2px solid rgb(14, 135, 132);
+background: rgb(254, 252, 247);
+border-radius: 20px;
+}
+.line{
+  width: 360px;
+  height: 1px;
+  border: 2px solid rgb(253, 214, 186);
+}
+.worktype__list{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 67px;
+}
+.worktype__item{
+  width: 285px;
+height: 355px;
+}
+.worktype__number{
+  color: rgb(253, 214, 186);
+font-family: Fraunces ;
+font-size: 72px;
+font-weight: 900;
+line-height: 72px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 38px;
+}
+.worktype__title2{
+  color: rgb(51, 61, 75);
+font-family: Fraunces;
+font-size: 32px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 42px;
+}
+.worktype__text{
+  color: rgb(51, 61, 75);
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
