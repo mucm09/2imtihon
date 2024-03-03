@@ -1,0 +1,23 @@
+.logo__container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo__list{
+  display: flex;
+  justify-content: space-between;
+  width: 383px;
+}
+.logo__item{
+  color: rgb(131, 136, 143);
+  font-family: Barlow;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.92px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.item2{
+  color: black;
+}
