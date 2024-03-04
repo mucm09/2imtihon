@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 14px;
+  max-width: max-content;
 }
 .logo__list{
   display: flex;
@@ -44,7 +45,7 @@ border:none;
     display: none;
   }
   .logo__container{
-    width: 689px;
+    max-width: 689px;
     height: 26px;
   }
 .logo__link{
