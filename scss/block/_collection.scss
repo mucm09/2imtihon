@@ -2,9 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+    bottom: 103px;
+}
+.ourcollection__title{
+width: 1111px;
+height: 196px;
+opacity: 0.2;
+font-size: 150px;
+font-family: Fraunces;
+margin-right: 165px;
+margin-left: 164px;
 }
 .ourcollection__item{
 margin-right: 30px;
+}
+.ourcollection__img{
+  width: 255px;
+  height: 193px;
+  margin-left: 30px;
 }
 .collection__title{
   color: rgb(51, 61, 75);
@@ -16,6 +32,7 @@ letter-spacing: 0px;
 text-align: center;
 padding-top: 30px;
 padding-bottom: 24px;
+
 }
 .collection__text{
   color: rgb(51, 61, 75);
