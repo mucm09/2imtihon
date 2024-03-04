@@ -48,3 +48,31 @@ border: none;
 .greatecoffee__btn:hover{
   background-color: cadetblue;
 }
+
+/* Tablet - Home */
+
+@media only screen and (max-width:768px){
+.greatcoffee__container{
+ background-image:url(/img/tabletbitmap.jpeg) ;
+ background-repeat: no-repeat;
+}
+.greatcoffee__title{
+font-size: 48px;
+font-weight: 900;
+line-height: 48px;
+}
+.greatecoffee__text{
+  font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+width: 398px;
+
+}
+.greatecoffee__btn{
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+border-radius: 6px;
+background: rgb(14, 135, 132);
+}
+}

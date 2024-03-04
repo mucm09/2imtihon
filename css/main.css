@@ -239,12 +239,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 14px;
 }
 
 .logo__list {
   display: flex;
   justify-content: space-between;
   width: 383px;
+  margin-right: 80px;
+}
+
+.logo__link {
+  width: 236px;
+  flex-shrink: 0;
+  margin-left: 80px;
 }
 
 .logo__item {
@@ -262,7 +270,31 @@ body {
   color: black;
 }
 
+.siteheader__logo {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../img/hamburger.png);
+  background-repeat: no-repeat;
+  display: none;
+  border: none;
+}
+
 /* Tablet - Home */
+@media only screen and (max-width: 375px) {
+  .logo__list {
+    display: none;
+  }
+  .logo__container {
+    width: 689px;
+    height: 26px;
+  }
+  .logo__link {
+    width: 163px;
+  }
+  .siteheader__logo {
+    display: inline-block;
+  }
+}
 .greatcoffee__container {
   width: 1281px;
   height: 600px;
@@ -319,6 +351,31 @@ body {
   background-color: cadetblue;
 }
 
+/* Tablet - Home */
+@media only screen and (max-width: 768px) {
+  .greatcoffee__container {
+    background-image: url(/img/tabletbitmap.jpeg);
+    background-repeat: no-repeat;
+  }
+  .greatcoffee__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  .greatecoffee__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 398px;
+  }
+  .greatecoffee__btn {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    border-radius: 6px;
+    background: rgb(14, 135, 132);
+  }
+}
 .ourcollection__list {
   display: flex;
   align-items: center;
